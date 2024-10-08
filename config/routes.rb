@@ -11,6 +11,9 @@ Rails.application.routes.draw do
   patch "/clowns/:id" => "clowns#update"
   delete "/clowns/:id" => "clowns#destroy"
 
+
+  post "/users" => "users#create"
+
   # Defines the root path route ("/")
   # root "posts#index"
 end
