@@ -1,0 +1,2 @@
+module ClownHelper
+end
